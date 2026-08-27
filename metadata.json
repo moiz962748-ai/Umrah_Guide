@@ -1,0 +1,6 @@
+{
+  "name": "Umrah & Ziyarat Guide — Makkah & Madinah",
+  "description": "Comprehensive Umrah guide, historical Ziyarat places directory for Makkah and Madinah, hotel/package explorer, and interactive pilgrimage planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

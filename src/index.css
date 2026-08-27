@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-canvas: #FDFCF6;
+    --color-sand: #F8F5EB;
+    --color-sand-border: #E5E1D3;
+    --color-forest: #2D4A3E;
+    --color-forest-dark: #1E332A;
+    --color-earth: #8C734B;
+    --color-earth-hover: #755F3C;
+    --color-earth-light: #EFE7DA;
+    --color-ink: #2D2A26;
+    --color-ink-muted: #5C564E;
+    --color-ink-subtle: #8C867A;
+  }
+
+  body {
+    background-color: #FDFCF6;
+    color: #2D2A26;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-serif {
+    font-family: 'Cinzel', serif, Georgia;
+  }
+
+  .font-arabic {
+    font-family: 'Amiri', 'Traditional Arabic', serif;
+    line-height: 1.8;
+  }
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+/* Custom smooth scrollbar */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
