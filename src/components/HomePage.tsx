@@ -229,7 +229,7 @@ export const HomePage: React.FC<HomePageProps> = ({ setActiveTab, onSelectCity }
               {/* Image Banner */}
               <div className="relative h-64 w-full bg-[#1E332A] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1000&q=80"
+                  src="/makkah.jpg"
                   alt="Makkah Al-Mukarramah"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -285,7 +285,7 @@ export const HomePage: React.FC<HomePageProps> = ({ setActiveTab, onSelectCity }
               {/* Image Banner */}
               <div className="relative h-64 w-full bg-[#1E332A] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1590076215667-875d4ef2d7ee?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1000&q=80"
                   alt="Al-Madinah Al-Munawwarah"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
